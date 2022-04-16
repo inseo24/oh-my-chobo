@@ -7,6 +7,19 @@
 
 [notion 페이지로 이동!](https://enchanting-peripheral-390.notion.site/VS-Code-56eb96ebe19e49adb2dbfa15539d2fff)
 
+
+## Git
+
+Git 회원 가입 후 git bash를 설치해 주세요^ㅁ^(윈도우라면!)
+
+[git bash 설치](https://xangmin.tistory.com/102)
+
+다운받고 싶은 폴더 안에서 마우스 우클릭으로 git bash here 을 키고 아래 명령어를 입력하고 엔터를 치면 다운로드 됩니다!
+
+```shell
+git clone https://github.com/inseo24/oh-my-chobo.git
+```
+
 ## HTML 기초
 
 WWW(World Wide Web)은 인터넷상에 정보를 통일된 방법으로 찾아볼 수 있게 하는 서비스로 1991년에 등장했습니다.

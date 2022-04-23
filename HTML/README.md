@@ -107,3 +107,105 @@ HTML 요소들은 계층구조를 갖습니다.
 
 이제 기본적인 HTML 태그를 이용해 간단히 웹사이트를 만들어볼까요!
 homework.md 파일을 참고해주세요! (나무위키.html 도 같이 확인^ㅁ^)
+
+
+
+# Anchor/Image 태그
+
+## Anchor Tag
+
+1. 앵커 태그
+    - <a> : 앵커 태그(링크)
+    - 새로운 웹페이지로 이동하거나 사이트 내부에서 특정한 위치로 이동할 때 사용하는 태그
+    - href 속성 값에 “#요소의ID”를 넣어 설정
+
+**여기서 HTML/1-6.html 코드를 참고해보세요!**
+
+**코드를 Live Server로 확인해보세요!**
+
+## Image Tag
+
+1. 이미지 태그
+    - <img> 태그의 속성
+        - src: 경로 지정
+        - alt : 이미지가 없을 때 나오는 글자 지정
+        - width: 이미지의 너비
+        - height: 이미지의 높이 지정
+
+이미지를 지정하는 방법에는 3가지가 있습니다.
+
+1. 내부 파일을 지정하는 방법
+2. 외부 파일 링크를 이용하는 방법
+3. 데이터 URL 방식이 있습니다.
+    1. HTTP 요청을 절약할 수 있고 HTML 파일로 관리할 수가 있다는 장점이 있습니다.
+    2. 기존 파일보다 용량이 커진다는 단점이 있습니다. 또한 base64 인코딩 같이 추가 작업으로 인해 메모리, 처리 시간으로 성능 저하가 발생할 수 있습니다.
+    3. “data:image/jpeg;base64” 로 시작합니다.
+    4. data 형식의 jpeg인 image며 base64로 인코딩되어 있다는 뜻입니다.
+
+**여기서 HTML/1-7.html 코드를 참고해보세요!**
+
+**코드를 Live Server로 확인해보세요!**
+
+[이미지 파일 Data URL 변환기](https://wepplication.github.io/tools/img2Url/)를 이용해보세요!
+
+# 테이블, 공간 분할 태그
+
+## 글자 태그 - 글자 형태
+
+- <b>, <strong>: 굵은 글자 태그
+- <i>, <em>: 기울어진 글자 태그
+- <small>: 작은 글자 태그
+- <sub>: 아래에 달라 붙는 글자 태그
+- <sup>: 위에 달라 붙는 글자 태그
+- <ins>: 밑줄 글자 태그
+- <del>: 가운데 줄이 그어진 글자 태그
+
+**여기서 HTML/1-8.html 코드를 참고해보세요!**
+
+**코드를 Live Server로 확인해보세요!**
+
+## 테이블 태그 - 기본
+
+- <tr>: 표 내부의 행 태그, table row
+- <th>: 행 내부의 제목 셀 태그, table header
+- <td>: 행 내부의 일반 셀 태그, table data
+- <thead>, <tbody>, <tfoot>: 시멘틱 태그
+
+**여기서 HTML/1-9.html 코드를 참고해보세요!**
+
+**코드를 Live Server로 확인해보세요!**
+
+## 테이블 태그 - 속성
+
+- table 태그의 속성
+    - border: 표의 테두리 두께를 지정
+    - width: 표의 너비를 지정
+
+- th 태그와 td 태그 속성
+    - rowspan: 셀의 행 확장 범위 지정
+    - colspan: 셀의 컬럼 확장 범위 지정
+
+**여기서 HTML/1-10.html 코드를 참고해보세요!**
+
+**코드를 Live Server로 확인해보세요!**
+
+## 공간 분할 태그
+
+- div: block 형식으로 공간을 분할
+    - 쌓아 올려지는 형식
+- span: inline 형식으로 공간을 분할
+    - 한 줄 안에 차례차례 위치하는 형식
+
+| Block 형식 태그 | Inline 형식 태그 |
+| --- | --- |
+| div, h1~h6, p, 목록(ol, ul), 테이블, form 태그 | span, a, input, 글자 형식 태그들 |
+
+**여기서 HTML/1-11.html 코드를 참고해보세요!**
+
+**코드를 Live Server로 확인해보세요!**
+
+### Reference
+
+- [https://github.com/kdkcom1234/git2021/tree/master/1-html-css/example/ch01](https://github.com/kdkcom1234/git2021/tree/master/1-html-css/example/ch01)
+- [모던 웹을 위한 HTML5+CSS3 바이블(3판)윤인성 | 한빛미디어](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162241585)
+- **HTML5 and CSS Fundamentals, edX(W3Cx)**

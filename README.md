@@ -29,3 +29,13 @@ WWW(World Wide Web)은 인터넷상에 정보를 통일된 방법으로 찾아�
 웹의 근본 HTML을 알아봅시다!
 
 [notion 페이지로 이동!](https://enchanting-peripheral-390.notion.site/HTML5-d293f1b2962149e4b37248cbf560f46e)
+
+
+## CSS
+
+CSS는 웹에 사용되는 태그에 스타일을 적용합니다. 태그와 스타일을 함께 사용하던 기존 방식부터 현재는 태그와 스타일을 분리하는 방법까지 발전했습니다. 
+
+웹 문서를 예쁘게 꾸밀 수 있는 CSS를 알아봅시다!
+
+
+[notion 페이지로 이동!](https://www.notion.so/CSS-6e92aeed1af64d60b699c2a78bb6c668)

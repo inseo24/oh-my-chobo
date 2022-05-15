@@ -38,4 +38,4 @@ CSS는 웹에 사용되는 태그에 스타일을 적용합니다. 태그와 스
 웹 문서를 예쁘게 꾸밀 수 있는 CSS를 알아봅시다!
 
 
-[notion 페이지로 이동!](https://www.notion.so/CSS-6e92aeed1af64d60b699c2a78bb6c668)
+[notion 페이지로 이동!](https://enchanting-peripheral-390.notion.site/CSS-6e92aeed1af64d60b699c2a78bb6c668)
